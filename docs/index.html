@@ -1,1 +1,69 @@
-<h1>Test</h1>
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meine Links</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      background: #f4f4f4;
+      color: #222;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      padding: 2rem;
+    }
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+    .link-container {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      max-width: 400px;
+      gap: 1rem;
+    }
+    a {
+      text-decoration: none;
+      color: #222;
+      background: white;
+      padding: 1rem 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      text-align: center;
+      font-weight: 500;
+      transition: all 0.2s ease;
+    }
+    a:hover {
+      background: #0078ff;
+      color: white;
+      transform: translateY(-2px);
+    }
+    footer {
+      margin-top: auto;
+      font-size: 0.85rem;
+      color: #777;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>ChaosSquad Documentation</h1>
+  
+  <div class="link-container">
+    <a href="https://chaossquad.github.io/castleconquest2">Castle Conquest 2</a>
+    <a href="https://chaossquad.github.io/">coming soon...</a>
+    <a href="https://chaossquad.github.io/">coming soon...</a>
+    <a href="https://chaossquad.github.io/">coming soon...</a>
+  </div>
+
+  <footer>
+    <a href="https://github.com/ChaosSquad" target="_blank">GitHub</a>
+  </footer>
+</body>
+</html>
