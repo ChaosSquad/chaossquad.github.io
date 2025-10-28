@@ -1,0 +1,38 @@
+site_name: PlayerLevels
+site_url: https://chaossquad.github.io/castleconquest2/
+theme:
+  name: material
+  logo: assets/logo.png
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+repo_url: https://github.com/ChaosSquad/CastleConquest2-Public
+
+nav:
+  - Home: index.md
+  - Conquest:
+      - Game Concept: conquest-game-concept.md
+      - Flags: conquest-flags.md
+      - Equipment System: conquest-equipment-system.md
+  - Map:
+      - Cameras: map-cameras.md
+      - Map Destruction: map-destruction.md
+      - Doors: map-doors.md
+      - Power Management: map-power-management.md
+      - Upgrades: map-upgrades.md
+      - Items: map-items.md
+      - Rules/Behaviors: map-rules.md
+
+markdown_extensions:
+  - toc
+  - admonition
+  - codehilite

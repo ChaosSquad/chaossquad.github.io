@@ -1,0 +1,14 @@
+- **Cutting tool:** Can [break](map-destruction.md) iron barsand other light-resistent materials.
+- [**Door Explosive / C4**](map-doors.md)
+- [**Door Repair Kit**](map-doors.md)
+- **EMP:** An item which destroys all keycards in the world when triggered. This includes all items which have a keycard functionality, such as writable keycards, replica keycards, and any other types of keycards.
+- **Flashlight:** Gives you night vision and prevents and allows to see in the castle's basement when the light is off.
+- [**Gate Cannon**](map-doors.md)
+- **Keycard (writable):** A [keycard](map-doors.md) where permissions can be added to or removed from at the Keycard Manager villager. Also known as "Keycard".
+- **Keycard (other):** Other [keycards](map-doors.md) for the doors, which are not writable keycards. Those keycards are gamemode-dependent. An example is the "Replica Keycard" from Conquest.
+- **Old pickaxe:** Can be used to obtain coal ore in the mine.
+- **Siege Tower:** Spawns a tower in front of the castle wall get on the castle walls. Can be destroyed by destroying any block of it.
+- **TNT:** When placed, it triggers immediatly and explodes. Available with variable amount of power.
+- [**Replacement camera**](map-cameras.md)
+- **Wall breaker:** [Breaks](map-destruction.md) damaged parts of the castle wall
+- [**Wall Repair Kit**](map-destruction.md)

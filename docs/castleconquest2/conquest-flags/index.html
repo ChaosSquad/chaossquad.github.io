@@ -1,0 +1,1246 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://chaossquad.github.io/castleconquest2/conquest-flags/">
+      
+      
+        <link rel="prev" href="../conquest-game-concept/">
+      
+      
+        <link rel="next" href="../conquest-equipment-system/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.6">
+    
+    
+      
+        <title>Flags - PlayerLevels</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.8608ea7d.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#general" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="PlayerLevels" class="md-header__button md-logo" aria-label="PlayerLevels" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            PlayerLevels
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Flags
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/ChaosSquad/CastleConquest2-Public" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="PlayerLevels" class="md-nav__button md-logo" aria-label="PlayerLevels" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="logo">
+
+    </a>
+    PlayerLevels
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/ChaosSquad/CastleConquest2-Public" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Conquest
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Conquest
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../conquest-game-concept/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Game Concept
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Flags
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Flags
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#general" class="md-nav__link">
+    <span class="md-ellipsis">
+      General
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#behavior" class="md-nav__link">
+    <span class="md-ellipsis">
+      Behavior
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#appearance-in-world" class="md-nav__link">
+    <span class="md-ellipsis">
+      Appearance in world
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Appearance in world">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#particles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Particles
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#flag-object" class="md-nav__link">
+    <span class="md-ellipsis">
+      Flag Object
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sidebar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sidebar
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#flag-locations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Flag Locations
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Flag Locations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#default-map" class="md-nav__link">
+    <span class="md-ellipsis">
+      Default map
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#developer-info" class="md-nav__link">
+    <span class="md-ellipsis">
+      Developer info
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Developer info">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#control-command" class="md-nav__link">
+    <span class="md-ellipsis">
+      Control command
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Control command">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usage
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      Examples
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#flag-states" class="md-nav__link">
+    <span class="md-ellipsis">
+      Flag states
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Flag states">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-it-works-internally" class="md-nav__link">
+    <span class="md-ellipsis">
+      How it works internally
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#internal-values-to-flag-state" class="md-nav__link">
+    <span class="md-ellipsis">
+      Internal values to flag state
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#responsibilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      Responsibilities
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../conquest-equipment-system/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Equipment System
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Map
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Map
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../map-cameras/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cameras
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../map-destruction/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Map Destruction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../map-doors/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Doors
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../map-power-management/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Power Management
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../map-upgrades/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Upgrades
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../map-items/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Items
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../map-rules/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Rules/Behaviors
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#general" class="md-nav__link">
+    <span class="md-ellipsis">
+      General
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#behavior" class="md-nav__link">
+    <span class="md-ellipsis">
+      Behavior
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#appearance-in-world" class="md-nav__link">
+    <span class="md-ellipsis">
+      Appearance in world
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Appearance in world">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#particles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Particles
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#flag-object" class="md-nav__link">
+    <span class="md-ellipsis">
+      Flag Object
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sidebar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sidebar
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#flag-locations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Flag Locations
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Flag Locations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#default-map" class="md-nav__link">
+    <span class="md-ellipsis">
+      Default map
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#developer-info" class="md-nav__link">
+    <span class="md-ellipsis">
+      Developer info
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Developer info">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#control-command" class="md-nav__link">
+    <span class="md-ellipsis">
+      Control command
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Control command">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usage
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      Examples
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#flag-states" class="md-nav__link">
+    <span class="md-ellipsis">
+      Flag states
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Flag states">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-it-works-internally" class="md-nav__link">
+    <span class="md-ellipsis">
+      How it works internally
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#internal-values-to-flag-state" class="md-nav__link">
+    <span class="md-ellipsis">
+      Internal values to flag state
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#responsibilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      Responsibilities
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+  <h1>Flags</h1>
+
+<h2 id="general">General</h2>
+<p>Holding flags is the main objective in conquest mode.</p>
+<p>For the attackers to win, they must hold more than half of all flags for 5 minutes.</p>
+<p>In order for the defenders to win, the attackers must run out of their available time of 30 minutes.</p>
+<p>Both timers are mutually exclusive. This means that if the attackers' 5-minute timer is active, the defenders' 30-minute timer is inactive.
+The same applies the other way round, but the attackers' 5-minute timer counts up to 5 minutes again in the background as long as it is inactive.</p>
+<h2 id="behavior">Behavior</h2>
+<table>
+<thead>
+<tr>
+<th>Status</th>
+<th>Condition</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>IDLE</td>
+<td>No enemy team and no capturing progress on the flag</td>
+<td>Nothing happens</td>
+</tr>
+<tr>
+<td>Capturing</td>
+<td>Other team is in the majority on the flag</td>
+<td>Capturing progress inceases</td>
+</tr>
+<tr>
+<td>Uncapturing</td>
+<td>Holding team is in the majority on the flag</td>
+<td>Capturing progress decreases</td>
+</tr>
+<tr>
+<td>IDLE with progress</td>
+<td>No team is on the flag, but there is still capturing progress on it</td>
+<td>Capturing progress decreases slowly</td>
+</tr>
+<tr>
+<td>Tie</td>
+<td>Both holding team and other team is on the flag with the same amount of players</td>
+<td>Nothing happens</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>When the capturing progress reaches 100 %, the team that had capturing progress on the flag is now the new holding team</li>
+<li>“Team in majority” means that the team has the most players on the flag compared to the other team.</li>
+</ul>
+<h2 id="appearance-in-world">Appearance in world</h2>
+<h4 id="particles">Particles</h4>
+<p>The green or red particles on the ground are marking a flag area.
+The particle color is the current holding team of the flag.
+That means, if the flag is currently controlled by the defenders, the particles are green. When the attackers are holding the flag, the particles are red.</p>
+<p>Here you can see how that looks:</p>
+<p><img alt="cc2_conquest_flag_defenders.png" src="../assets/cc2-conquest-flag-defenders.png" /><img alt="cc2_conquest_flag_attackers.png" src="../assets/cc2-conquest-flag-attackers.png" /></p>
+<h4 id="flag-object">Flag Object</h4>
+<p>A planned feature is that there is an actual flag model in the flag area.
+Since we currently don't have someone who creates custom models, this feature isn't currently available.</p>
+<h2 id="sidebar">Sidebar</h2>
+<p>The sidebar shows the flags available.
+The color of the flag letter is the current holding team.
+<img alt="cc2_conquest_sidebar_flags.png" src="../assets/cc2-conquest-sidebar-flags.png" /></p>
+<p>There is also a capturing indicator.
+It is shown in the color of the team which currently has capturing progress on the flag.
+| Icon | State | In this example |
+|--|--|--|
+| <img alt="cc2_conquest_sidebar_flags_capturing.png" src="../assets/cc2-conquest-sidebar-flags-capturing.png" /> | Capturing | Attackers are capturing A. Capturing progress of attackers increases. |
+| <img alt="cc2_conquest_sidebar_flags_downcapturing_fast.png" src="../assets/cc2-conquest-sidebar-flags-downcapturing-fast.png" /> | Uncapturing | Defenders are uncapturing A. Capturing progress of attackers decreases. |
+| <img alt="cc2_conquest_sidebar_flags_downcapturing_slow.png" src="../assets/cc2-conquest-sidebar-flags-downcapturing-slow.png" /> | IDLE with progress | Attackers are not actively capturing A, but still have progress on it. Capturing progress of attackers decreases slowly. |
+| N/A | IDLE or Tie | Defenders hold A without any capturing progress by the attackers, or both attackers and defenders have the same amount of players on the flag. |</p>
+<h2 id="flag-locations">Flag Locations</h2>
+<h4 id="default-map">Default map</h4>
+<table>
+<thead>
+<tr>
+<th>Letter</th>
+<th>Location</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>In front of the main gate</td>
+</tr>
+<tr>
+<td>B</td>
+<td>Center of the Yard</td>
+</tr>
+<tr>
+<td>C</td>
+<td>Tower in the Throne Building of the Yard</td>
+</tr>
+<tr>
+<td>D</td>
+<td>Park (inofficially known as "Oxygen") in the basement</td>
+</tr>
+<tr>
+<td>E</td>
+<td>Dining room in the basement</td>
+</tr>
+<tr>
+<td>F</td>
+<td>Water Generator Room in the basement</td>
+</tr>
+</tbody>
+</table>
+<h2 id="developer-info">Developer info</h2>
+<h3 id="control-command">Control command</h3>
+<h4 id="usage">Usage</h4>
+<p><code>/cc2 game flags [&lt;flagId: int&gt; [area|captureprogressdecreaseidle|captureprogressdecreaseuncapture|captureprogressincreasecapture|captureprogressincreaseidle|capturingprogress|capturingteam [reset]|holdingteam [&lt;holdingTeam: int&gt;|id|location|majorityteam|name]]</code></p>
+<h4 id="examples">Examples</h4>
+<ul>
+<li>Get list of flags: <code>/cc2 game flags</code></li>
+<li>Show info about one flag: <code>/cc2 game flags &lt;flagId&gt;</code></li>
+<li>Show specific info about one flag: <code>/cc2 game flags &lt;flagId&gt; captureprogressdecreaseidle</code></li>
+<li>Change holding team: <code>/cc2 game flags &lt;flagId&gt; holdingteam 1</code></li>
+<li>Reset capturing team (and progress): <code>/cc2 game flags &lt;flagId&gt; capturingteam reset</code></li>
+</ul>
+<h3 id="flag-states">Flag states</h3>
+<h4 id="how-it-works-internally">How it works internally</h4>
+<p>Instead of the flag states which are shown to the outside, the flag uses 3 different values which then results in the flag state:</p>
+<ul>
+<li><code>holdingTeam</code>: The team that is currently holding the flag</li>
+<li><code>capturingTeam</code>: The team that has currently capturing progress on the flag</li>
+<li><code>majorityTeam</code>: The team that has currently the majority of players on the flag</li>
+</ul>
+<p>Then there is also the <code>capturingProgress</code>:
+- Depending on the values, the <code>capturingProgress</code> increases, decreases or remains unchanged. If the <code>capturingProgress</code> reaches a certain value, the <code>capturingTeam</code> becomes the new holdingTeam.
+- The <code>capturingProgress</code> resets to <code>0</code> if there is no <code>capturingTeam</code>.
+- If the <code>capturingProgress</code> is <code>0</code> or below, the <code>capturingTeam</code> is cleared
+- The <code>holdingTeam</code> cannot be the <code>capturingTeam</code></p>
+<h4 id="internal-values-to-flag-state">Internal values to flag state</h4>
+<table>
+<thead>
+<tr>
+<th>Internal name</th>
+<th>Condition</th>
+<th>Result</th>
+<th>Shown name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>IDLE</td>
+<td><code>capturingTeam</code> not set</td>
+<td>Nothing happens</td>
+<td>IDLE</td>
+</tr>
+<tr>
+<td>CAPTURING</td>
+<td><code>capturingTeam</code> is set and <code>capturingTeam == majorityTeam</code></td>
+<td><code>capturingProgress</code> increases</td>
+<td>Capturing</td>
+</tr>
+<tr>
+<td>UNCAPTURING_BY_OWNER</td>
+<td><code>capturingTeam</code> is set and <code>majorityTeam == holdingTeam</code></td>
+<td><code>capturingProgress</code> decreases</td>
+<td>Uncapturing</td>
+</tr>
+<tr>
+<td>UNCAPTURING_BY_OTHER</td>
+<td><code>capturingTeam</code> is set and <code>majorityTeam != holdingTeam != capturingTeam</code></td>
+<td><code>capturingProgress</code> decreases</td>
+<td>N/A (not possible except when using commands)</td>
+</tr>
+<tr>
+<td>UNCAPTURING_IDLE</td>
+<td><code>capturingTeam</code> is set and <code>majorityTeam</code> not set</td>
+<td><code>capturingProgress</code> decreases</td>
+<td>IDLE with progress</td>
+</tr>
+<tr>
+<td>MULTIPLE_TEAMS</td>
+<td><code>capturingTeam</code> is set and majority team set to multiple teams value (-1)</td>
+<td>Nothing happens</td>
+<td>Tie</td>
+</tr>
+</tbody>
+</table>
+<h3 id="responsibilities">Responsibilities</h3>
+<ul>
+<li>Each flag is represented by an object of <code>ConquestFlag</code>. They are stored in the flags map in <code>ConquestGame</code>.</li>
+<li>A <code>ConquestFlagCapturedEvent</code>is fired when the holding team of the flag changes (due to capturing).
+  Cancelling this event will prevent the holding team from getting changed, but since it does not change anything else, the flag will try to change its holding team again the next tick if the conditions are the same.</li>
+<li>A <code>ConquestFlagPlayerOnFlagEvent</code> is fired for each player inside the flag area.
+  Cancelling this event will remove the player from the majority team calculation for the current tick.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+    
+  </body>
+</html>
