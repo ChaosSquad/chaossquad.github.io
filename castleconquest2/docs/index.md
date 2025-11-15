@@ -14,7 +14,7 @@ Conquest is currently the only playable game mode. It is about capturing and hol
 
 ## Gamemodes
 - Conquest<br/>Capture and hold enough flags in the castle to win.
-- Rush<br/>Complete the objectives in the current zone to proceed to the next one. You win if you make it to the last one.
+- Breakthrough<br/>Complete the objectives in the current zone to proceed to the next one. You win if you make it to the last one.
 - Lynchmob<br/>Defend the king from the angry lynch mob.
 - Siege<br/>Hold the castle to gain reputation in the villages. Your team wins when it reaches a specific amount of it.
 
