@@ -41,6 +41,7 @@ The color of the flag letter is the current holding team.
 
 There is also a capturing indicator.
 It is shown in the color of the team which currently has capturing progress on the flag.
+
 | Icon | State | In this example |
 |--|--|--|
 | ![cc2_conquest_sidebar_flags_capturing.png](assets/cc2-conquest-sidebar-flags-capturing.png) | Capturing | Attackers are capturing A. Capturing progress of attackers increases. |
