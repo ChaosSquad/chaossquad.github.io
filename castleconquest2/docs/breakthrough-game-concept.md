@@ -25,7 +25,7 @@ A game consists of multiple zones in a specific order.
 Each zone has an objective, which the attackers must complete to proceed to the next zone.  
 Each zone has a time limit for the attackers. When they run out of time, they lose.
 
-Here, you can read more information about zones.
+[Click here to read more about zones.](breakthrough-zones.md)
 
 #### Spawning
 The spawnpoints are zone-specific.
@@ -35,4 +35,4 @@ Normally, the attackers and defenders spawn on opposite sites outside of the zon
 #### Equipment
 The equipment system is class-based. There is no currency to buy equipment or something like that.
 
-Here, you can read more information about the equipment system.
+[Click here to read more about the equipment system.](breakthrough-equipment-system.md)

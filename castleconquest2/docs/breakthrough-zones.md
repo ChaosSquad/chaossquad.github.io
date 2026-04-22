@@ -35,7 +35,7 @@ While a combat area is theoretically optional, it's set for almost any zone.
 #### Flag zone
 Zone objective: Capture all flags in the zone
 
-The zone is using the same flags like the ones in conquest, so you can read more information about the flags page of the conquest gamemode.
+The zone is using the same flags like the ones in conquest, so you can read more information about the [flags page of the conquest gamemode](conquest-flags.md).
 
 #### Rush target zone
 Zone objective: Destroy all targets in the zone
