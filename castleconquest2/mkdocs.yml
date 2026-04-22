@@ -23,6 +23,9 @@ nav:
       - Game Concept: conquest-game-concept.md
       - Flags: conquest-flags.md
       - Equipment System: conquest-equipment-system.md
+  - Breakthrough:
+      - Game concept: breakthrough-game-concept.md
+      - Zones: breakthrough-zones.md
   - Map:
       - Cameras: map-cameras.md
       - Map Destruction: map-destruction.md
