@@ -1,0 +1,79 @@
+site_name: ChaosSquad Documentation
+site_description: Documentation of the ChaosSquad projects.
+site_url: https://documentation.chaossquad.net/
+
+docs_dir: documentation
+site_dir: docs
+
+theme:
+  name: material
+  logo: assets/chaossquad-logo-new-240p.png
+  favicon: assets/favicon.png
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - content.action.edit
+    - search.suggest
+    - search.highlight
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+# This is the repository of the documentation itself, not of a single project.
+# The "Edit this page" button links here. Links to the individual project
+# repositories belong on the project start pages (see documentation/index.md).
+repo_url: https://github.com/ChaosSquad/chaossquad.github.io
+repo_name: ChaosSquad/chaossquad.github.io
+edit_uri: edit/main/documentation/
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ChaosSquad
+      name: ChaosSquad on GitHub
+
+nav:
+  - Home:
+      - index.md
+  - Castle Conquest 2:
+      - castleconquest2/index.md
+      - Conquest:
+          - Game Concept: castleconquest2/conquest-game-concept.md
+          - Flags: castleconquest2/conquest-flags.md
+          - Equipment System: castleconquest2/conquest-equipment-system.md
+      - Breakthrough:
+          - Game Concept: castleconquest2/breakthrough-game-concept.md
+          - Zones: castleconquest2/breakthrough-zones.md
+      - Map:
+          - Cameras: castleconquest2/map-cameras.md
+          - Map Destruction: castleconquest2/map-destruction.md
+          - Doors: castleconquest2/map-doors.md
+          - Power Management: castleconquest2/map-power-management.md
+          - Upgrades: castleconquest2/map-upgrades.md
+          - Items: castleconquest2/map-items.md
+          - Rules/Behaviors: castleconquest2/map-rules.md
+
+hooks:
+  - hooks/nojekyll.py
+
+markdown_extensions:
+  - toc
+  - admonition
+  - codehilite
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg

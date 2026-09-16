@@ -1,8 +1,12 @@
-## What is CastleConquet 2
-CastleConquets 2 (CC2) is a Minecraft PvP minigame project about capturing and defending a castle.
+# Castle Conquest 2
+
+[:simple-github: CastleConquest2-Public](https://github.com/ChaosSquad/CastleConquest2-Public) — issues, API and the source of this documentation.
+
+## What is CastleConquest 2
+CastleConquest 2 (CC2) is a Minecraft PvP minigame project about capturing and defending a castle.
 It consists of multiple gamemodes and currently one map.
 
-The gamemodes are Conquest, Rush, Lynchmob and Siege, of which Conquest is currently available, while the other ones are currently under development.
+The gamemodes are Conquest, Breakthrough, Lynchmob and Siege, of which Conquest is currently available, while the other ones are currently under development.
 
 The castle has special features. Doors require keys or can be controlled centrally, there are cameras, a large surveillance monitor and power management. Some of these things can be upgraded during the game.
 
@@ -13,8 +17,8 @@ There are also villages outside from which you can get equipment.
 Conquest is currently the only playable game mode. It is about capturing and holding flags in the castle. If the attackers hold more than half of the flags for 5 minutes, they win. The defenders win if the attackers do not manage to capture the castle within 30 minutes.
 
 ## Gamemodes
-- Conquest<br/>Capture and hold enough flags in the castle to win.
-- Breakthrough<br/>Complete the objectives in the current zone to proceed to the next one. You win if you make it to the last one.
+- [Conquest](conquest-game-concept.md)<br/>Capture and hold enough flags in the castle to win.
+- [Breakthrough](breakthrough-game-concept.md)<br/>Complete the objectives in the current zone to proceed to the next one. You win if you make it to the last one.
 - Lynchmob<br/>Defend the king from the angry lynch mob.
 - Siege<br/>Hold the castle to gain reputation in the villages. Your team wins when it reaches a specific amount of it.
 
