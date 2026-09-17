@@ -50,20 +50,20 @@ nav:
   - Castle Conquest 2:
       - castleconquest2/index.md
       - Conquest:
-          - Game Concept: castleconquest2/conquest-game-concept.md
-          - Flags: castleconquest2/conquest-flags.md
-          - Equipment System: castleconquest2/conquest-equipment-system.md
+          - Game Concept: castleconquest2/conquest/game-concept.md
+          - Flags: castleconquest2/conquest/flags.md
+          - Equipment System: castleconquest2/conquest/equipment-system.md
       - Breakthrough:
-          - Game Concept: castleconquest2/breakthrough-game-concept.md
-          - Zones: castleconquest2/breakthrough-zones.md
+          - Game Concept: castleconquest2/breakthrough/game-concept.md
+          - Zones: castleconquest2/breakthrough/zones.md
       - Map:
-          - Cameras: castleconquest2/map-cameras.md
-          - Map Destruction: castleconquest2/map-destruction.md
-          - Doors: castleconquest2/map-doors.md
-          - Power Management: castleconquest2/map-power-management.md
-          - Upgrades: castleconquest2/map-upgrades.md
-          - Items: castleconquest2/map-items.md
-          - Rules/Behaviors: castleconquest2/map-rules.md
+          - Cameras: castleconquest2/map/cameras.md
+          - Map Destruction: castleconquest2/map/destruction.md
+          - Doors: castleconquest2/map/doors.md
+          - Power Management: castleconquest2/map/power-management.md
+          - Upgrades: castleconquest2/map/upgrades.md
+          - Items: castleconquest2/map/items.md
+          - Rules/Behaviors: castleconquest2/map/rules.md
 
 hooks:
   - hooks/nojekyll.py
