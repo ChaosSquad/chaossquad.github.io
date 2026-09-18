@@ -56,6 +56,8 @@ nav:
       - Breakthrough:
           - Game Concept: castleconquest2/breakthrough/game-concept.md
           - Zones: castleconquest2/breakthrough/zones.md
+      - Freemode:
+          - Overview: castleconquest2/freemode/overview.md
       - Map:
           - Cameras: castleconquest2/map/cameras.md
           - Map Destruction: castleconquest2/map/destruction.md
