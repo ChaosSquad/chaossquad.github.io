@@ -66,6 +66,12 @@ nav:
           - Upgrades: castleconquest2/map/upgrades.md
           - Items: castleconquest2/map/items.md
           - Rules/Behaviors: castleconquest2/map/rules.md
+  - CombatTest:
+    - combattest/index.md
+  - ACM-2:
+    - acm2/index.md
+  - BurgConquest:
+    - burgconquest/index.md
 
 hooks:
   - hooks/nojekyll.py

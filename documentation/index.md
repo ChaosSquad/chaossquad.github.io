@@ -20,6 +20,43 @@ Pick a project from the tabs above, or from the list below.
 
 </div>
 
+<div class="grid cards" markdown>
+
+-   __[CombatTest](combattest/index.md)__
+
+    ---
+
+    
+
+    [:octicons-arrow-right-24: Documentation](combattest/index.md) ·
+    [:simple-github: Repository](https://github.com/ChaosSquad/CombatTest)
+
+</div>
+
+<div class="grid cards" markdown>
+
+-   __[ACM-2](acm2/index.md)__
+
+    ---
+
+    
+
+    [:octicons-arrow-right-24: Documentation](acm2/index.md) ·
+
+</div>
+
+<div class="grid cards" markdown>
+
+-   :material-castle: __[BurgConquest](burgconquest/index.md)__
+
+    ---
+
+    
+
+    [:octicons-arrow-right-24: Documentation](burgconquest/index.md) ·
+
+</div>
+
 ## Everything else
 
 [:simple-github: github.com/ChaosSquad](https://github.com/ChaosSquad)
